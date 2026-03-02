@@ -2,8 +2,59 @@
 <html>
 <head>
 <title>For my cutest GORU</title>
+<style>
+body{
+background-color:pink;
+text-align:center;
+font-family:Arial;
+padding-top:100px;
+}
+h1{
+color:white;
+font-size:40px;
+}
+h2{
+color:red;
+font-family:"Courier New",monospace;
+}
+button{
+padding:10px 20px;
+font-size:16px;
+border:none;
+border-radius:10px;
+curser:pointer;
+background-color:white;
+}
+button:hover{
+background-color:lightyellow;
+}
+#lovemessage{
+display:none;
+margin-top:20px;
+background-color:peachpuff;
+color:purple;
+padding:20px;
+border-radius:15px;
+font-size:20px;
+width:320px;
+margin-left:auto;
+margin-right:auto;
+box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+}
+</style>
 </head>
 <body>
-
+<h1>Hey babe....I wanna tell you something</h1>
+<p>I just made my first website and I thought let's make it for you..</p> 
+<h2>I LOVE YOU THE MOST ANI</h2>
+<button onclick="showLove()">Babee see thisss</button>
+<div id="lovemessage">
+<strong>You really mean a lot to me babe!!</strong>
+</div>
+<script>
+function showLove(){
+document.getElementById("lovemessage").style.display="block";
+}
+</script>
 </body>
 <html>
